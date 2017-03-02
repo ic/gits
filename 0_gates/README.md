@@ -2,7 +2,7 @@ GITS - Gates
 ============
 
 ## Setup
-## With Virtualenv
+### With Virtualenv
 
 * Python 3.6
 * Virtualenv
