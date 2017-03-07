@@ -4,8 +4,8 @@ set -e
 
 read -p "Use virtualenv? [Y/n]" response
 if [ -z "$response" -o 'Y' = "$response" -o 'y' = "$response" ]; then
-  virtualenv --python python3.6 ~/tmp/gits
-  source ~/tmp/gits/bin/activate
+  virtualenv --python python3.6 ~/tmp/virtualenv/gits
+  source ~/tmp/virtualenv/gits/bin/activate
   pip install -r requirements.txt
 else
   pip install --user -r requirements.txt
@@ -14,4 +14,4 @@ fi
 jupyter-nbextension install rise --py --sys-prefix
 jupyter-nbextension enable rise --py --sys-prefix
 
-echo "Run with: `jupyter notebook`"
+echo "Run with: jupyter notebook"
