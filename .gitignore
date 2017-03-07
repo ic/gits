@@ -1,2 +1,4 @@
 .ipynb_checkpoints
 *.pyc
+
+MNIST_data

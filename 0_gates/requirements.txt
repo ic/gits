@@ -1,2 +1,0 @@
-rise==4.0.0b1
-tensorflow==1.0.0
