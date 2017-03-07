@@ -57,3 +57,6 @@ From the home directory:
 $ pip install -r requirements.txt [--user]
 $ jupyter notebook
 ```
+
+---
+Made with the support of [Chikaku](https://www.chikaku.co.jp/) and the Chikaku Team. 🍵
