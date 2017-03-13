@@ -19,7 +19,7 @@ $ ./setup
 When you open a new shell, you need to activate the right `virtualenv`. By default, thismeans running the following command:
 
 ```
-$ source ~/tmp/gits/bin/activate
+$ source ~/tmp/virtualenv/gits/bin/activate
 $ jupyter notebook
 ```
 
@@ -34,7 +34,7 @@ From the home directory:
 
 ```
 $ virtualenv --python python3.6 ~/tmp/gits
-$ source ~/tmp/gits/bin/activate
+$ source ~/tmp/virtualenv/gits/bin/activate
 $ pip install -r requirements.txt
 $ jupyter notebook
 ```
@@ -42,7 +42,7 @@ $ jupyter notebook
 When you open a new shell, you need to activate the right `virtualenv`. By default, thismeans running the following command:
 
 ```
-$ source ~/tmp/gits/bin/activate
+$ source ~/tmp/virtualenv/gits/bin/activate
 $ jupyter notebook
 ```
 
